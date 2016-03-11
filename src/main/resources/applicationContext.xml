@@ -11,8 +11,7 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 	<aop:aspectj-autoproxy /> 
 	<context:component-scan base-package="com.seven.services" />
-	<context:component-scan base-package="com.seven.controller" />
-	<context:component-scan base-package="com.seven.anno"/>
+
 
 	<!-- JDBC -->
 	<bean id="propertyConfigurer"
